@@ -14,8 +14,8 @@ python watch.py {file that needs to be watched!}
 ````
 
 # How it works
-After starting up, watcher.py will inject some javascript into index.html, which it expects to find in the same directory. Before closing watcher.py should remove the javascript by itself.   
-While running watcher.py will listen for a websocket connection on port 8756, once a browser connects it will watch the file for some changes using the last modified timestamp. After some changes have been detected, watcher.py will notify the browser which will reload the page.
+After starting up, watch.py will inject some javascript into index.html, which it expects to find in the same directory. Before closing watch.py should remove the javascript by itself.   
+While running watch.py will listen for a websocket connection on port 8756, once a browser connects it will watch the file for some changes using the last modified timestamp. After some changes have been detected, watch.py will notify the browser which will reload the page.
 
 
 
